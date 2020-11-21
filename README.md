@@ -1,6 +1,6 @@
 Starfield with the Spaceship Enterprise
 =========================
-For this assignment you will make a animation of moving through a starfield. It is very similar to viewing an exploding firework headon as the explosion ejects particles in a 3D sphere. We will do a simulation of this in our project in 2D. You may find slides approximately 27 - 42 on <a href="https://docs.google.com/presentation/d/1APHiU8WDTsL6ll2f2R2uBWW79uEhsPXPJZxobfls5lM">Unit_9a_InheritanceAndEncapsulation</a> presentation helpful.
+For this assignment you will make a animation of moving through a starfield. It is very similar to viewing an exploding firework headon as the explosion ejects particles in a 3D sphere. We will do a simulation of this in our project in 2D. You may find slides approximately 27 - 42 on <a href="https://docs.google.com/presentation/d/1APHiU8WDTsL6ll2f2R2uBWW79uEhsPXPJZxobfls5lM/edit#slide=id.ga513ebe730_0_119">Unit_9a_InheritanceAndEncapsulation</a> presentation helpful.
  
 Program requirements:
 ---------------------
