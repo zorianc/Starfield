@@ -1,6 +1,6 @@
 Starfield with the Spaceship Enterprise
 =========================
-For this assignment you will make a animation of moving through a starfield. It is very similar to viewing an exploding firework headon as the explosion ejects particles in a 3D sphere. We will do a simulation of this in our project in 2D. You may find slides approximately 27 - 42 on <a href="https://docs.google.com/presentation/d/1APHiU8WDTsL6ll2f2R2uBWW79uEhsPXPJZxobfls5lM/edit#slide=id.ga513ebe730_0_119">Unit_9a_InheritanceAndEncapsulation</a> presentation helpful.
+For this assignment you will make a animation of moving through a starfield. It is very similar to viewing an exploding firework headon as the explosion ejects particles in a 3D sphere. We will do a simulation of this in our project in 2D. You may find slides approximately 27 - 42 on <a href="https://docs.google.com/presentation/d/1U6Q4y2aVB-DTWi-jB2GYJP2BUIu_k2O3yY6iDY9w-Mw">Unit_9a_InheritanceAndEncapsulation</a> presentation helpful.
  
 Program requirements:
 ---------------------
@@ -23,3 +23,5 @@ Suggested steps to completing this assignment
 13. Run your program. Make sure you can see the Oddball.
 15. Submit the url of your working GitHub webpage to google classroom
 Extensions: Have a fun and be creative. If you have extra time you may want to modify your program and add extra features and other types and arrangements of particles. 
+
+OPTIONAL EXTRA CREDIT: See if you can use an array list in steps #5 and #12
