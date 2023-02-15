@@ -4,7 +4,7 @@ For this assignment you will make a animation of moving through a starfield. It 
  
 Program requirements:
 ---------------------
-Your program must use at least two classes to model the particles. A `Particle` (star) super class and an `Oddball` (spaceship) sub class. All the particles must be stored in a single array of the super class type. Make sure you do not unnecessarily duplicate inherited variables and functions in the `Oddball` sub class. Your `Oddball` sub class need only contain a constructor and `void move()` and/or `void show()` so that the `Oddball` moves and/or looks different.
+Your program must use at least two classes to model the particles. A `Particle` (star) super class and an `Oddball` (spaceship) sub class. All the particles must be stored in a single array list of the super class type. Make sure you do not unnecessarily duplicate inherited variables and functions in the `Oddball` sub class. Your `Oddball` sub class need only contain a constructor and `void move()` and/or `void show()` so that the `Oddball` moves and/or looks different.
 
 
 Suggested steps to completing this assignment
@@ -17,11 +17,10 @@ Suggested steps to completing this assignment
   * `void show()`, draws the particle in the correct color
 3. Now finish the program's `setup()` and `draw()`
 4. Add one `Particle` variable, and make sure you can see it move
-5. Add an array of type `Particle` and loop through it to move and show all the Particles.
+5. Add an array list of type `Particle` and loop through it to move and show all the Particles.
 9. Create an OddballParticle class that `extends` the Particle class.
-12. Change the first element in the array to a `OddballParticle` instead of a `Particle`
+12. Change a random element in the array to a `OddballParticle` instead of a `Particle`
 13. Run your program. Make sure you can see the Oddball.
 15. Submit the url of your working GitHub webpage to google classroom
 Extensions: Have a fun and be creative. If you have extra time you may want to modify your program and add extra features and other types and arrangements of particles. 
 
-OPTIONAL EXTRA CREDIT: See if you can use an array list in steps #5 and #12
