@@ -1,0 +1,31 @@
+class OddballParticle extends Particle//inherits from Particle
+{
+  int radiusNum, gNum, bNum, radNum, myT;
+  OddballParticle()
+  {
+    super();
+    myDia = (int)(Math.random() * 7)+7;
+    radiusNum = (int)(Math.random()*255);
+    gNum = (int)(Math.random()*255);
+    bNum = (int)(Math.random()*255);
+    radNum = (int)(Math.random()*190)+10;
+    myT = 0;
+  }
+  void move()
+  {
+    myX = width/2 + radNum*Math.cos(myT) ;
+    myY = height/2 + radNum*Math.sin(myT) ;
+    myT+=1*Math.PI;
+
+    if (dist((float)width/2, (float)height/2, (float)myX, (float)myY)>100)
+    {
+      myDia += 0.005;
+      myColor += 1;
+    }
+  }
+  void show()
+  {
+    fill(radiusNum, gNum, bNum, 200);
+    ellipse((float)myX, (float)myY, (float)myDia, (float)myDia);
+  }
+}
